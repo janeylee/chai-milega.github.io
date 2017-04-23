@@ -10,18 +10,18 @@ body {
     float:left;
 }
 
-@media only screen and (max-width: 401px) {
-    .bubble-holder {
-        display:block;
-    }
-    
-}
 
+@media only screen and (max-width: 730px) {
+    .menu {
+        display:none;
+    } 
+}
 .menu {
     font-family:'Lato';
     font-weight:300;
     text-transform: uppercase;
 }
+
 
 .items {
     float:right;
@@ -60,6 +60,7 @@ body {
 h1 {
     font-family: "Libre Baskerville";
     padding:30px 20px 30px 20px;
+    line-height: 50px
 }
 
 p {
@@ -81,6 +82,7 @@ h2 {
     width:300px;
     height:80px;
     margin: 0 auto;
+    margin-top:50px;
     
 }
 .contact img {
@@ -102,10 +104,8 @@ body img {
 
 .center {
     margin: 0 auto;
-    width:75%;
+    width:70%;
 }
-
-
 
 /*new ABOUT PAGE*/
 
@@ -152,6 +152,15 @@ h3 {
     
     }
 
+.biglink, .biglink:visited {
+    text-decoration: none;
+    border-bottom: dotted;
+    border-width: 1px;
+    color:black;
+    border-color: #9BF81C;
+    
+    }
+
 .link:hover {
     text-decoration: none;
     cursor: pointer;
@@ -161,10 +170,20 @@ h3 {
     border-radius: 3px;
 }
 
+.biglink:hover {
+    text-decoration: none;
+    cursor: pointer;
+/*    background: #f8e71c;*/
+    color:black;
+    transition-duration: 0.3s;
+    border-radius: 3px;
+    background-image:linear-gradient(180deg,transparent 70%,#9BF81C 0);
+}
+
 .case-study {
     text-align:left;
     line-height: 30px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .case-study img{
@@ -175,12 +194,17 @@ h3 {
     margin-bottom: 20px;
 }
 
+@media only screen and (max-width: 440px) {
+    .bubble-holder {
+        display:inline-block;
+    } 
+}
 .bubble-holder p {
     background: #f7f7f7;
     text-transform: uppercase;
     font-size: 10px; 
-    padding: 1px 15px 1px 15px;
-    margin-right: 10px;
+    padding: 1px 15px 1px 15px; 
+    margin-right: 10px; 
     font-weight: 300;
 }
 
@@ -203,4 +227,37 @@ h3 {
     font-weight:900;
     text-decoration: none;
     color:#f8e71c;
+}
+
+.menu-item2 {
+    padding: 20px 25px 0 25px;
+    font-size:18px;    
+    color:black;
+}
+
+.menu-item2:hover {
+    transition-duration: 0.3s;
+    cursor: pointer;
+    color:#f8e71c;
+    font-weight:900;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 730px) {
+    .bottom {
+        display:none;
+    } 
+}
+
+
+.bottom a {
+    font-family:'Lato';
+    font-weight:300;
+    text-transform: uppercase;
+    display:block;
+    margin:auto;
+    text-align: center;}
+
+.bottom :lastchild {
+    margin-bottom: 50px;
 }
