@@ -91,7 +91,7 @@ h2 {
     font-family: "Work Sans";
     font-weight: 700;
     font-size: 16px;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 .contact img {
     width:60px;
@@ -118,7 +118,7 @@ body img {
     width:20%;
     margin: 0 auto;
     margin-bottom: 40px;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 .center {
