@@ -39,7 +39,7 @@ body {
 .menu-item:hover {
     transition-duration: 0.3s;
     cursor: pointer;
-    color:#75dbcd;
+    color:#ffe66d;
     font-weight:900;
     text-decoration: none;
 }
@@ -91,6 +91,7 @@ h2 {
     font-family: "Work Sans";
     font-weight: 700;
     font-size: 16px;
+    border-radius: 5px;
 }
 .contact img {
     width:60px;
@@ -113,10 +114,11 @@ body img {
 
 .hl {
     border: 5px solid;
-    border-color: #75dbcd;
+    border-color: #ff6b6b;
     width:20%;
     margin: 0 auto;
     margin-bottom: 40px;
+    border-radius: 5px;
 }
 
 .center {
@@ -175,26 +177,26 @@ h3 {
 .link, .link:visited {
     text-decoration: none;
     border-bottom: dotted;
-    border-width: 1px;
+    border-width: 2px;
     padding-bottom: 3px;
     color:black;
-    border-color: #ef98a4;
+    border-color: #ffe66d;
     
     }
 
 .biglink, .biglink:visited {
     text-decoration: none;
     border-bottom: dotted;
-    border-width: 1px;
+    border-width: 3px;
     color:black;
-    border-color: #ef98a4;
+    border-color: #ffe66d;
     
     }
 
 .link:hover {
     text-decoration: none;
     cursor: pointer;
-    background: #ef98a4;
+    background: #ffe66d;
     color:black;
     transition-duration: 0.3s;
     border-radius: 2px;
@@ -207,7 +209,7 @@ h3 {
     color:black;
     transition-duration: 0.3s;
     border-radius: 3px;
-    background-image:linear-gradient(180deg,transparent 70%,#efb3bb 0);
+    background-image:linear-gradient(180deg,transparent 70%,#ffe66d 0);
 }
 
 .case-study {
