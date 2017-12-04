@@ -6,6 +6,10 @@ body {
     text-align: center;
 }
 
+/*STARTS HERE*/
+
+
+
 .logo {
     float:left;
 }
@@ -227,6 +231,16 @@ h3 {
 .case-study img{
     width:100%;
 }
+.ali img{
+    width:150%
+}
+
+@media only screen and (max-width: 980px) {
+    .ali img {
+        width:100%;
+    } 
+}
+
 .bubble-holder {
     display:flex;
     margin-bottom: 20px;
@@ -257,6 +271,8 @@ h3 {
     padding: 20px 30px 20px 30px;
     text-decoration: none;
 }
+
+
 
 .case-button:hover {
     transition-duration: 0.3s;
