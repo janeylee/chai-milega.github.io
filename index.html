@@ -8,6 +8,14 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main2.css">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700,800" rel="stylesheet">
+    
+    <!-- animsition.css -->
+    <link rel="stylesheet" href="../dist/css/animsition.min.css">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- animsition.js -->
+    <script src="../dist/js/animsition.min.js"></script>
+    
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109385989-1"></script>
     <script>
@@ -23,7 +31,7 @@
 
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid animsition">
         <div class="row menu">
             
             
@@ -44,6 +52,10 @@
             <div class="hl"></div>
             <p style="font-size:20px;"><b>My work seeks to:</b></p>
         </div>
+        
+        </div> 
+<!--        animsiion-->
+    
         <div class="row big-center">
             <div class="row">
             
@@ -55,6 +67,10 @@
                raise money
             </a></h1>
                 
+            <h1><a href="promotetalent.html" class="biglink">
+               promote talent
+            </a></h1>
+                
             <h1><a href="understandpeople.html" class="biglink">
                understand people
             </a></h1>
@@ -62,6 +78,8 @@
             <h1><a href="tellstories.html" class="biglink">
                tell stories
             </a></h1>
+                
+
                 
 
             
@@ -96,9 +114,40 @@
         </div>
                 
 
-    </div>
         
 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+  <script src="../dist/js/animsition.min.js" charset="utf-8"></script>
+  <script>
+  $(document).ready(function() {
+    $('.animsition-overlay').animsition({
+      inClass: 'overlay-slide-in-bottom',
+      outClass: 'overlay-slide-out-top',
+      overlay : true,
+      overlayClass : 'animsition-overlay-slide',
+      overlayParentElement : 'body'
+    })
+    .one('animsition.inStart',function(){
+      $('body').removeClass('bg-init');
+      $(this)
+        .find('.item')
+        .append('<h2 class="target">Callback: Start</h2>');
+      console.log('event -> inStart');
+    })
+    .one('animsition.inEnd',function(){
+      $('.target', this).html('Callback: End');
+      console.log('event -> inEnd');
+    })
+    .one('animsition.outStart',function(){
+      console.log('event -> outStart');
+    })
+    .one('animsition.outEnd',function(){
+      $('.target', this).html('Callback: End');
+      console.log('event -> outEnd');
+    });
+  });
+  </script>
+    
     <div class="bottom">
         <a class="menu-item2" href="about.html">about</a>
         <a class="menu-item2" href="http://janeyleeee.wordpress.com" target="_blank">thoughts</a>
