@@ -1,6 +1,6 @@
 $(".animsition").animsition({
-    inClass: 'fade-in-up'
-    , outClass: 'fade-out-up'
+    inClass: 'fade-in-up-sm'
+    , outClass: 'fade-out-up-sm'
     , inDuration: 1500
     , outDuration: 1000
     , linkElement: '.animsition-link'
