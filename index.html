@@ -5,16 +5,11 @@
   <title>Janey Lee</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/main2.css">
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700,800" rel="stylesheet">
-    
-    <!-- animsition.css -->
-    <link rel="stylesheet" href="../dist/css/animsition.min.css">
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <!-- animsition.js -->
-    <script src="../dist/js/animsition.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,600" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.min.css" />
+
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109385989-1"></script>
@@ -31,137 +26,51 @@
 
 </head>
 <body>
-    <div class="container-fluid animsition">
-        <div class="row menu">
-            
-            
-            <a href="index.html" class="logo"><img src="images/logo.png"></a>
-            <div class="items">
-            <a class="menu-item" href="about.html">about</a>
-            <a class="menu-item" href="https://dribbble.com/janeylee" target="_blank">Dribbbble</a>
-            <a class="menu-item" href="http://janeyleeee.wordpress.com" target="_blank">thoughts</a>
-            
-            </div>
-        </div>
+    <div class="container-fluid hero-bg">
+
  
-        <div class="row center">
-            <h1>Hi! My name is Janey Lee.</h1>
-            <p>I am a UX/UI designer based in New York. My interests lie in design research, storytelling, and crafting thoughtful, people-friendly digital experiences. 
 
-            <br>
-            <br>
-            
-            <div class="hl"></div>
-            <p style="font-size:20px;"><b>UX and Product Design</b></p>
+            <div class="row hero-content animsition">
+                <img class="myface" src="images/self2.png">
+                <h1>Hi! My name is Janey Lee.</h1>
+                <p>I am a UX/UI designer and researcher based in New York. My interests lie in storytelling and crafting thoughtful, people-friendly digital experiences.</p>
+                <a href="https://www.linkedin.com/in/leejaney/" target="_blank"><img class="hero-svg" src="images/linkedin.svg"></a>
+                <a href="https://dribbble.com/janeylee" target="_blank"><img class="hero-svg" src="images/dribbble.svg"></a>
+                <a href="https://janeyleeee.wordpress.com/" target="_blank"><img class="hero-svg" src="images/wordpress.svg"></a>
             </div>
-        
-        </div> 
-    
-        <div class="row big-center">
-            <div class="row">
-                
-            <h1><a href="sneha.html" class="biglink">
-               improving health in urban slums
-            </a></h1>
-                
-            <h1><a href="rangsutra.html" class="biglink">
-               supporting rural artisans
-            </a></h1>
-                
-            <h1><a href="promotetalent.html" class="biglink">
-               promoting ballet talent
-            </a></h1>
-            
-<!--
-            <h1><a href="vino.html" class="biglink">
-               building a wine community
-            </a></h1>
--->
-            <br>
-            <br>
-                
-            <div class="hl"></div>
-            <p style="font-size:20px;"><b>Design research</b></p>
-            </div>
-            
-            
-            <h1><a href="changebehaviors.html" class="biglink">
-               getting people to separate waste
-            </a></h1>
-                
-            <h1><a href="understandpeople.html" class="biglink">
-               understanding Mumbai's sanitation workers
-            </a></h1>
-            
 
-
-
-
-
-        </div>
-<!--
-        <div class="row col-md-6">
-
-            <h1><a href="empowerpeople.html" class="biglink">
-               empower people
-            </a></h1>  
-            <h1><a href="buildawareness.html" class="biglink">
-                build awareness
-            </a></h1>
-            <h1><a href="" class="biglink">
-               show impact
-            </a></h1>
-        
-        </div>
--->
-        </div>
-        
-        <div class="row contact">
-<!--            <img src="images/contact.png">-->
-            <p>Get in touch</p>
-            <a href="mailto:janey.leeee@gmail.com" class="biglink">janey.leeee@gmail.com</a>
-        </div>
-                
-
-        
-
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
-  <script src="../dist/js/animsition.min.js" charset="utf-8"></script>
-  <script>
-  $(document).ready(function() {
-    $('.animsition-overlay').animsition({
-      inClass: 'overlay-slide-in-bottom',
-      outClass: 'overlay-slide-out-top',
-      overlay : true,
-      overlayClass : 'animsition-overlay-slide',
-      overlayParentElement : 'body'
-    })
-    .one('animsition.inStart',function(){
-      $('body').removeClass('bg-init');
-      $(this)
-        .find('.item')
-        .append('<h2 class="target">Callback: Start</h2>');
-      console.log('event -> inStart');
-    })
-    .one('animsition.inEnd',function(){
-      $('.target', this).html('Callback: End');
-      console.log('event -> inEnd');
-    })
-    .one('animsition.outStart',function(){
-      console.log('event -> outStart');
-    })
-    .one('animsition.outEnd',function(){
-      $('.target', this).html('Callback: End');
-      console.log('event -> outEnd');
-    });
-  });
-  </script>
-    
-    <div class="bottom">
-        <a class="menu-item2" href="about.html">about</a>
-        <a class="menu-item2" href="http://janeyleeee.wordpress.com" target="_blank">thoughts</a>
-        <a class="menu-item2" href="https://dribbble.com/janeylee" target="_blank">Dribbbble</a>
     </div>
+    
+<div class="image-container">
+    
+    <div class="image-row">
+        <div><a href="https://medium.com/@janeylee/design-process-website-for-a-maternal-health-organization-in-mumbai-e1a16f7d208b" target="_blank"><img src="images/sneha.jpg"></a>
+        
+        <a href="https://medium.com/@janeylee/design-process-website-for-a-rural-artisan-cooperative-d4e6982d8a8c" target="_blank"><img src="images/rangsutrablue.png"></a>
+        
+    
+    </div>
+    
+    <div class="image-row">
+        <a href="https://janeylee.exposure.co/earth-mars-and-separated-waste" target="_blank"><img src="images/sanitation.jpg"></a>
+        <a href="https://medium.com/@janeylee/co-designing-a-better-work-environment-with-mumbais-sanitation-workers-6a3c8bafd75" target="_blank"><img src="images/swach.jpg"></a>
+    
+    </div>
+    </div>
+    
+  
+    
+
+        
+
+                
+
+        
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js"></script>
+<script src="custom.js"></script>
+
     
 </body>
 </html>
