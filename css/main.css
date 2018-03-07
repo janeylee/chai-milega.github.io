@@ -23,7 +23,7 @@ p {
 
 .hero-bg {
     background: #3543DC; 
-    background-image: linear-gradient(to left top, rgba(255, 255, 255, 0.17) 50%, rgba(255, 255, 255, 0.17) 30%, transparent 90%)
+    background-image: linear-gradient(to left top, rgba(255, 255, 255, 0.17) 30%, rgba(255, 255, 255, 0.17) 30%, transparent 90%)
 }
 
 .hero-content {
