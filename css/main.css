@@ -1,0 +1,117 @@
+
+* {
+    
+}
+
+/*STARTS HERE*/
+h1 {
+    font-family: "Barlow";
+    font-size:24px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+p {
+    font-family:"Barlow";
+    font-size:16px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+
+.hero-bg {
+    background: #3543DC; 
+    background-image: linear-gradient(to left top, rgba(255, 255, 255, 0.17) 50%, rgba(255, 255, 255, 0.17) 30%, transparent 90%)
+}
+
+.hero-content {
+    margin: 0 auto;
+    text-align: center;
+    width: 320px;
+    padding: 150px 0px 150px 0px;
+
+}
+
+.hero-svg{
+    width: 20px;
+    margin: 0px 5px 0px 5px;
+}
+
+.myface{
+    width:100px;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+
+
+.image-container {
+    display:flex;
+    flex-wrap:wrap;
+    padding: 10px 50px 100px 50px;
+}
+
+.image-row {
+    margin: 0 auto;
+}
+
+.image-row img {
+    margin-top: 50px;
+    margin-right: 25px;
+    margin-left: 25px;
+    opacity:1;
+    filter: alpha(opacity=100);
+    width:416px;
+
+}
+
+.image-row img:hover {
+    opacity: 0.5; 
+    filter: alpha(opacity=50);
+    transition-duration: 0.5s;
+    cursor:pointer;
+
+}
+
+
+
+@media only screen and (max-width: 980px) {
+    .image-row img {
+        width:100%;
+        margin:0 auto;
+        margin-bottom: 5px;
+        margin-top:30px;
+    } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
