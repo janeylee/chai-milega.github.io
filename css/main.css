@@ -7,7 +7,7 @@
 h1 {
     font-family: "Barlow";
     font-size:24px;
-    line-height: 24px;
+    line-height: 28px;
     color: #ffffff;
     font-weight: 600;
 }
@@ -21,6 +21,7 @@ p {
 }
 
 
+
 .hero-bg {
     background: #3543DC; 
     background-image: linear-gradient(to left top, rgba(255, 255, 255, 0.17) 30%, rgba(255, 255, 255, 0.17) 30%, transparent 90%)
@@ -31,7 +32,13 @@ p {
     text-align: center;
     width: 320px;
     padding: 150px 0px 150px 0px;
+}
 
+.hero-content-inner {
+    margin: 0 auto;
+    text-align: center;
+    width: 320px;
+    padding: 50px 0px 50px 0px;
 }
 
 .hero-svg{
@@ -41,6 +48,7 @@ p {
 
 .myface{
     width:100px;
+
 }
 
 .center {
@@ -89,28 +97,72 @@ p {
 }
 
 
+.case-study p{
+    color:black;
+}
+
+.case-study h2 {
+    font-family: "Barlow";
+    font-weight:600;
+    font-size: 24px;
+    color: #3543DC;
+}
+
+.case-study h3 {
+    font-family: "Barlow";
+    font-weight:600;
+    font-size: 16px;
+}
+
+.case-study li {
+    font-family: "Barlow";
+    font-weight:300;
+    font-size: 16px;
+    line-height: 26px
+}
+
+.case-study {
+    text-align:left;
+    margin-bottom: 150px;
+    margin-top:50px;
+}
+
+@media only screen and (max-width: 440px) {
+    .case-study {
+        margin-bottom:30px;
+    } 
+}
+
+.case-study img{
+    width:120%;
+    margin: 30px 0px 30px 0px;
+}
+
+@media only screen and (max-width: 980px) {
+    .case-study img {
+        width:100%;
+    } 
+}
 
 
+.link, .link:visited {
+    text-decoration: none;
+    border-bottom: dotted;
+    border-width: 2px;
+    padding-bottom: 3px;
+    color:black;
+    border-color: #ffe66d;
+    font-weight:600;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.link:hover {
+    text-decoration: none;
+    cursor: pointer;
+    background: #ffe66d;
+    color:black;
+    transition-duration: 0.3s;
+    border-radius: 2px;
+}
 
 
 
