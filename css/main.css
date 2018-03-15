@@ -24,7 +24,22 @@ p {
 
 .hero-bg {
     background: #3543DC; 
-    background-image: linear-gradient(to left top, rgba(255, 255, 255, 0.17) 30%, rgba(255, 255, 255, 0.17) 30%, transparent 90%)
+    background-image: linear-gradient(to left top, rgba(255, 255, 255, 0.17) 30%, rgba(255, 255, 255, 0.17) 30%, transparent 90%);
+}
+
+.vino-bg {
+    background-image: url(../images/vino.jpg);
+    height:95%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sneha-bg {
+    background-image: url(../images/vino.jpg);
+    height:95%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero-content {
