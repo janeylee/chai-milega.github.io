@@ -7,9 +7,9 @@
 h1 {
     font-family: "Barlow";
     font-size:24px;
-    line-height: 28px;
+    line-height: 35px;
     color: #ffffff;
-    font-weight: 600;
+    font-weight: 300;
 }
 
 p {
@@ -226,6 +226,10 @@ p {
     margin-bottom: 100px;
 }
 
+.bottom-text p {
+    color: black;
+    font-size: 13px;
+}
 .bottom-link, .bottom-link:visited {
     text-decoration: none;
     border-bottom: dotted;
