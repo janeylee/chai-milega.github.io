@@ -14,7 +14,7 @@ h1 {
 
 p {
     font-family:"Barlow";
-    font-size:16px;
+    font-size:18px;
     line-height: 26px;
     color: black;
     font-weight: 300;
@@ -162,17 +162,20 @@ p {
     margin-left:-90px;
 }
 
-.case-study p {
+.case-study p{
     color:black;
+    font-size:18px;
+    line-height: 30px;
 
 }
+
 
 
 .case-study h2 {
     font-family: "Barlow";
     font-weight:600;
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 28px;
+    line-height: 35px;
     color: #3543DC;
 }
 
@@ -185,8 +188,8 @@ p {
 .case-study li {
     font-family: "Barlow";
     font-weight:300;
-    font-size: 16px;
-    line-height: 26px
+    font-size: 18px;
+    line-height: 30px;
 }
 
 .case-study {
