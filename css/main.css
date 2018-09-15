@@ -67,6 +67,22 @@ p {
     background-size: cover;
 }
 
+.bi-bg {
+    background-image: url(../images/bi.jpg);
+    height:95%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cb-bg {
+    background-image: url(../images/cbcase1.jpg);
+    height:95%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .hero-content {
     margin: 0 auto;
     text-align: left;
