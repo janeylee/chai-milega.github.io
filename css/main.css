@@ -291,6 +291,24 @@ p {
     border-radius: 2px;
 }
 
+.blog-link, .link:visited {
+    text-decoration: none;
+    border-bottom: dotted;
+    border-width: 2px;
+    padding-bottom: 3px;
+    color:black;
+    border-color: #ffe66d;
+    }
+
+.blog-link:hover {
+    text-decoration: none;
+    cursor: pointer;
+    background: #ffe66d;
+    color:black;
+    transition-duration: 0.3s;
+    border-radius: 2px;
+}
+
 .bottom-text {
     font-family: "Barlow";
     font-weight: 300;
