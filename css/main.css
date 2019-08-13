@@ -5,11 +5,12 @@
 
 /*STARTS HERE*/
 h1 {
-    font-family: "Barlow";
+    font-family: "Trocchi";
     font-size:35px;
     line-height: 40px;
-    color: #3543DC;
+    color: #E1AD10;
     font-weight: 300;
+    letter-spacing: 1px;
 }
 
 p {
@@ -124,7 +125,7 @@ p {
 }
 
 .myface{
-    width:150px;
+    width:160px;
     Margin-right:30px;
 }
 
@@ -221,11 +222,13 @@ p {
 
 
 .case-study h2 {
-    font-family: "Barlow";
+    font-family: "Trocchi";
     font-weight:600;
     font-size: 28px;
     line-height: 35px;
-    color: #3543DC;
+    color: #E1AD10;
+    letter-spacing: 1px;
+
 }
 
 .case-study h3 {
@@ -278,14 +281,14 @@ p {
     border-width: 2px;
     padding-bottom: 3px;
     color:black;
-    border-color: #ffe66d;
+    border-color: #E1AD10;
     font-weight:600;
     }
 
 .link:hover {
     text-decoration: none;
     cursor: pointer;
-    background: #ffe66d;
+    background: #E1AD10;
     color:black;
     transition-duration: 0.3s;
     border-radius: 2px;
@@ -297,13 +300,13 @@ p {
     border-width: 2px;
     padding-bottom: 3px;
     color:black;
-    border-color: #ffe66d;
+    border-color: #E1AD10;
     }
 
 .blog-link:hover {
     text-decoration: none;
     cursor: pointer;
-    background: #ffe66d;
+    background: #E1AD10;
     color:black;
     transition-duration: 0.3s;
     border-radius: 2px;
@@ -328,14 +331,14 @@ p {
     border-width: 2px;
     padding-bottom: 3px;
     color:black;
-    border-color: #ffe66d;
+    border-color: #E1AD10;
     font-weight:300;
     }
 
 .bottom-link:hover {
     text-decoration: none;
     cursor: pointer;
-    background: #ffe66d;
+    background: #E1AD10;
     color:black;
     transition-duration: 0.3s;
     border-radius: 2px;
